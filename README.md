@@ -7,7 +7,7 @@ Module can be installed with command `npm install statusio`
 ## Quick start
 
 ```
-var StatusIOApi = require('statusioapi').StatusIOApi;
+var StatusIOApi = require('statusio').StatusIOApi;
 
 var api = new StatusIOApi('fe95676e-421f-4e55-94e3-aa7c9b291828', 'xDaJahiIQcnyuTXBBKT9+dTnTF0WW5Qn9sXwg+Tb4tSsbY+hj4Y41Ty/5nqEaLgMr/PukhDwwjWwIqsyeH7q2Q==')
 
@@ -23,7 +23,7 @@ api.status.summary('568acbf61ce86b532e000488', function(error, data){
 If you have plan to do multiple calls against one status page you could be interested in `setStatusPage` method. It allows to skip `statuspage_id` parameters in your requests
 
 ```
-var StatusIOApi = require('statusioapi').StatusIOApi;
+var StatusIOApi = require('statusio').StatusIOApi;
 
 var api = new StatusIOApi('fe95676e-421f-4e55-94e3-aa7c9b291828', 'xDaJahiIQcnyuTXBBKT9+dTnTF0WW5Qn9sXwg+Tb4tSsbY+hj4Y41Ty/5nqEaLgMr/PukhDwwjWwIqsyeH7q2Q==')
 api.setStatusPage('568acbf61ce86b532e000488');
@@ -40,7 +40,7 @@ api.status.summary(function(error, data){
 `statuspage_id` will be added to all objects where it is required and doesn't set
 
 ```
-var StatusIOApi = require('statusioapi').StatusIOApi;
+var StatusIOApi = require('statusio').StatusIOApi;
 
 var api = new StatusIOApi('fe95676e-421f-4e55-94e3-aa7c9b291828', 'xDaJahiIQcnyuTXBBKT9+dTnTF0WW5Qn9sXwg+Tb4tSsbY+hj4Y41Ty/5nqEaLgMr/PukhDwwjWwIqsyeH7q2Q==')
 api.setStatusPage('568acbf61ce86b532e000488');
