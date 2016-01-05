@@ -65,7 +65,7 @@ api.subscribers.add({
 
 ## Supported API Methods List
 
-Actual version of API documentation available at [http://docs.statusio.apiary.io/](http://docs.statusio.apiary.io/).
+Actual version of API documentation available at [http://developers.status.io/](http://developers.status.io/).
 
 ### Components
 
