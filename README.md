@@ -2,7 +2,7 @@
 
 ## Installation
 
-Module can be installed with command `npm install statusioapi`
+Module can be installed with command `npm install statusio`
 
 ## Quick start
 
