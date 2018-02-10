@@ -75,6 +75,7 @@ Actual version of API documentation available at [http://developers.status.io/](
 ### Incidents
 
 - api.incidents.list (statusPageId, callback)
+- api.incidents.listbyid (statusPageId, callback)
 - api.incidents.message (statusPageId, messageId, callback)
 - api.incidents.create (incident, callback)
 - api.incidents.update (incident, callback)
@@ -84,6 +85,7 @@ Actual version of API documentation available at [http://developers.status.io/](
 ### Maintenance
 
 - api.maintenance.list (statusPageId, callback)
+- api.maintenance.listbyid (statusPageId, callback)
 - api.maintenance.message (statusPageId, messageId, callback)
 - api.maintenance.schedule (maintenance, callback)
 - api.maintenance.start (maintenance, callback)
