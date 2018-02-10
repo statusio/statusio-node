@@ -2,7 +2,7 @@
   "author": "Status.io",
   "name": "statusio",
   "description": "Status.io API Library",
-  "version": "0.0.9",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/statusio/statusio-node"
   },
