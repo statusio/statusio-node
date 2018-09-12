@@ -1,5 +1,8 @@
 # Node.js Status.io
 
+Node.js package for [Status.io](https://status.io)
+
+
 ## Installation
 
 ```
