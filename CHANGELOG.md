@@ -1,5 +1,8 @@
 ## Change Log
 
+### v1.0.3 (2021/5/17)
+- Added Microsoft Teams
+
 ### v1.0.2 (2018/2/9)
 - Change /component/status/update to use a single component
 - Support retrieving single incident/maintenance events
